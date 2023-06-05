@@ -53,27 +53,3 @@ h4 {
 .txtqirmizi { color: var(--qirmizi) }
 .vh100 { min-height: 100vh }
 .vh50 { min-height: 50vh }
-
-@media only screen and (min-width: 768px) {
-    .container { max-width: 1180px; margin: auto }
-    header {
-        text-align: initial;
-    }
-    #menu { float: right}
-    #menu li { 
-        display: inline-block;
-        padding: 0 0 0 3.75vw;
-    }
-    h1 { font: 2.5rem }
-    h2 { font: 2.2rem }
-    h5 { padding: 0 20px 0 0 }
-    #title { left: 7.2vw; width: initial; text-align: right }
-    .col25 { width: 25% }
-    .col33 { width: 33.33% }
-    .col66 { width: 66.66% }
-    .fleft { float: left }
-    .fright { float: right }
-    .row:after { content: ''; display: table; clear: both;}
-
-    .art { padding: 60px }
-}
