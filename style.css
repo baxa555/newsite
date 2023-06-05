@@ -1,6 +1,6 @@
 :root {
-    --yasil: #a1c927;
-    --qirmizi: #fd634d;
+    --green: #a1c927;
+    --red: #fd634d;
 }
 header {
     background: url('../img/headerbg.jpg') center/cover;
@@ -46,10 +46,10 @@ h4 {
 .art { padding: 60px 20px }
 
 .bgag { background-color: #fff }
-.bgyasil { background-color: var(--yasil) }
-.bgqirmizi { background-color: var(--qirmizi) }
+.bggreen { background-color: var(--green) }
+.bgred { background-color: var(--red) }
 .txtag, .txtag a { color: #fff }
-.txtyasil { color: var(--yasil) }
-.txtqirmizi { color: var(--qirmizi) }
+.txtgreen{ color: var(--green) }
+.txtred { color: var(--red) }
 .vh100 { min-height: 100vh }
 .vh50 { min-height: 50vh }
